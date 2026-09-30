@@ -4,10 +4,13 @@ This is your plain-English manual for running Whit's World. You don't need to kn
 
 If you ever hand this whole folder to an AI assistant and say "add this to my Home finds," this document is what it should read first.
 
+**The easiest way to add something is the `/admin` page on your own site — no code, no GitHub, no AI assistant required.** See section 0 below. Everything after that (editing files directly, GitHub, etc.) is the "under the hood" method, kept here in case you ever want it or hand this project to someone technical.
+
 ---
 
 ## TABLE OF CONTENTS
 
+0. [How to post it yourself — the easy way](#0-how-to-post-it-yourself--the-easy-way)
 1. [How this site is organized (read this first)](#1-how-this-site-is-organized-read-this-first)
 2. [How to preview the website](#2-how-to-preview-the-website)
 3. [How to publish updates](#3-how-to-publish-updates)
@@ -26,6 +29,31 @@ If you ever hand this whole folder to an AI assistant and say "add this to my Ho
 16. [How to add a domain later](#16-how-to-add-a-domain-later)
 17. [How to add a Journal later](#17-how-to-add-a-journal-later)
 18. [If something breaks](#18-if-something-breaks)
+
+---
+
+## 0. HOW TO POST IT YOURSELF — THE EASY WAY
+
+Go to **whitsworld.com/admin** (works on your phone too). Log in with your admin password.
+
+Fill in the form:
+- **Title** — the headline for the card (e.g. "The $14 Ice Roller I Use Every Morning")
+- **Photo** — upload a picture straight from your phone or computer
+- **Short note** (optional) — a sentence about why you love it
+- **Retailer** — Amazon, Etsy, Target, etc.
+- **Price** (optional) — leave blank for Amazon; it's left off automatically anyway, since Amazon doesn't allow listing a fixed price that can go stale
+- **Link** — the plain product page URL. If it's Amazon, your affiliate tag is added automatically — just paste the regular link
+- **Where should this show up** — tick whichever tabs apply (Beauty, Fashion, Home, etc.) — it always shows on the main Shop page regardless
+
+Hit **Publish**. It's live on the site in about a minute — no need to tell anyone, no GitHub, no build step, nothing else to do.
+
+**One-time setup (only needs to happen once, ever):** this page needs two secret values saved in Cloudflare before it will work — an admin password you choose, and a GitHub access token. An AI assistant can build the feature but cannot see or enter either of those for you (that's by design, for your security) — you enter them yourself directly in the Cloudflare dashboard under your Pages project → Settings → Environment variables:
+- `ADMIN_PASSWORD` — any password you choose, this is what you'll type in at whitsworld.com/admin
+- `GITHUB_TOKEN` — a GitHub personal access token with write access to just this one repository
+
+If you ever want to change your admin password, just update the `ADMIN_PASSWORD` value in Cloudflare — no code changes needed.
+
+This covers adding new shoppable finds (the most common update). For anything bigger — a whole new write-up page, changing site-wide text, colors, or the navigation — you'll still want to use the file-editing method below (sections 1 onward), ideally with an AI assistant's help.
 
 ---
 
