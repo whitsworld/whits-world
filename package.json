@@ -1,0 +1,13 @@
+{
+  "name": "whits-world",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Whit's World — a personal, curated lifestyle site. Zero dependencies by design.",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node build.js --watch",
+    "serve": "node serve.js"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

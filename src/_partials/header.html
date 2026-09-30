@@ -1,0 +1,26 @@
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container site-header__bar">
+    <a href="/" class="site-header__brand">Whit<span>'</span>s World</a>
+
+    <nav class="nav-desktop" aria-label="Primary">
+      <ul>
+        {{#each navItems}}
+        <li><a href="{{url}}"{{#if active}} aria-current="page"{{/if}}>{{label}}</a></li>
+        {{/each}}
+      </ul>
+    </nav>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-mobile" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+
+  <nav class="nav-mobile" id="nav-mobile" aria-label="Primary mobile">
+    <ul class="container">
+      {{#each navItems}}
+      <li><a href="{{url}}"{{#if active}} aria-current="page"{{/if}}>{{label}}</a></li>
+      {{/each}}
+    </ul>
+  </nav>
+</header>

@@ -1,0 +1,6 @@
+# Generated output — rebuilt from /src every time, never edit directly
+/dist
+
+# OS/editor noise
+.DS_Store
+*.log

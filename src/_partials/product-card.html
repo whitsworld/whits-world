@@ -1,0 +1,13 @@
+<article class="product-card" data-shop-item data-categories="{{categoriesAttr}}">
+  <a href="{{url}}" class="product-card__image-wrap" target="_blank" rel="{{#if affiliate}}sponsored noopener{{else}}noopener{{/if}}" aria-label="Shop: {{title}}">
+    {{#if affiliate}}<span class="product-card__badge">Affiliate Link</span>{{/if}}
+    <img src="{{image}}" alt="{{alt}}" loading="lazy" width="900" height="1125">
+  </a>
+  <div class="product-card__retailer">{{retailer}}</div>
+  <h3 class="product-card__title"><a href="{{url}}" target="_blank" rel="{{#if affiliate}}sponsored noopener{{else}}noopener{{/if}}">{{title}}</a></h3>
+  {{#if note}}<p class="product-card__note">{{note}}</p>{{/if}}
+  <div class="product-card__meta">
+    {{#if price}}<span class="product-card__price">{{price}}</span>{{/if}}
+    <a class="shop-link" href="{{url}}" target="_blank" rel="{{#if affiliate}}sponsored noopener{{else}}noopener{{/if}}">Shop</a>
+  </div>
+</article>

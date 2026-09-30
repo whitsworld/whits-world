@@ -1,0 +1,49 @@
+---
+{
+  "title": "Amazon Home Finds I Didn't Know I Needed | Whit's World",
+  "description": "A quick, no-fuss roundup of small Amazon home finds that have made the biggest difference — updated as I find more.",
+  "subtitle": "No big renovation, just a handful of small things that made the apartment feel more like mine.",
+  "heroImage": "/assets/placeholders/amazon-home-hero-ww.svg",
+  "heroAlt": "Flat lay of small home decor items including a candle, frames, and a rattan tray",
+  "date": "2026-09-03",
+  "tags": ["home"],
+  "cardImage": "/assets/placeholders/amazon-home-card-ww.svg",
+  "cardAlt": "Small Amazon home finds arranged on a shelf",
+  "shopTheLookTitle": "This Week's Finds",
+  "shopTheLookIds": ["wine-wall-hooks", "gift-candle", "gift-mini-frames", "rattan-tray", "linen-throw-blanket", "desk-lamp"],
+  "related": [
+    { "title": "My Wine Wall Project", "url": "/home/wine-wall-project/", "image": "/assets/placeholders/wine-wall-card-ww.svg", "alt": "Wine wall project" },
+    { "title": "At Home", "url": "/home/", "image": "/assets/placeholders/at-home-related-ww.svg", "alt": "Home finds" }
+  ]
+}
+---
+
+<article>
+  <section class="page-hero">
+    <div class="container">
+      <p class="kicker page-hero__eyebrow">Home &middot; Quick Collection</p>
+      <h1 class="h1 page-hero__title">Amazon Home Finds I Didn't Know I Needed</h1>
+      <p class="page-hero__subtitle">{{page.subtitle}}</p>
+      <div class="page-meta">
+        <span>September 3, 2026</span>
+        <span>&middot;</span>
+        <span>Filed under Home</span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="page-hero__image">
+        <img src="{{page.heroImage}}" alt="{{page.heroAlt}}" width="1600" height="1000">
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="container article-body">
+      <p>This is the kind of page I'll keep adding to — small, inexpensive things I've actually bought and used, not a wishlist. No project, no before-and-after, just the stuff.</p>
+    </div>
+  </section>
+
+  {{> shop-the-look}}
+
+  {{> related}}
+</article>

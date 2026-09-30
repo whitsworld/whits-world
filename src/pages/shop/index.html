@@ -1,0 +1,36 @@
+---
+{
+  "title": "Shop | Whit's World",
+  "description": "A curated recommendation library — not a store. Amazon finds, fashion, home, beauty, and gifts I actually use and love."
+}
+---
+
+<section class="page-hero">
+  <div class="container">
+    <p class="kicker page-hero__eyebrow">The Library</p>
+    <h1 class="h1 page-hero__title">Shop</h1>
+    <p class="page-hero__subtitle">This isn't a store — it's everything I've recommended, in one place, so you don't have to go digging through old posts to find that one thing I mentioned.</p>
+  </div>
+</section>
+
+{{> disclosure-banner}}
+
+<section class="section" id="disclosure">
+  <div class="container">
+    <div class="filter-bar" data-filter-bar role="group" aria-label="Filter by category">
+      <button type="button" data-filter="all" aria-pressed="true">All</button>
+      <button type="button" data-filter="amazon" aria-pressed="false">Amazon</button>
+      <button type="button" data-filter="fashion" aria-pressed="false">Fashion</button>
+      <button type="button" data-filter="home" aria-pressed="false">Home</button>
+      <button type="button" data-filter="beauty" aria-pressed="false">Beauty</button>
+      <button type="button" data-filter="gifts" aria-pressed="false">Gifts</button>
+      <button type="button" data-filter="currentFavorites" aria-pressed="false">Current Favorites</button>
+    </div>
+
+    <div class="grid grid-4">
+      {{#each collections.all}}
+      {{> product-card}}
+      {{/each}}
+    </div>
+  </div>
+</section>

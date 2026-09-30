@@ -1,0 +1,38 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__top">
+      <div>
+        <div class="site-footer__brand">Whit's World</div>
+        <div class="site-footer__tagline">{{site.brand.tagline}}</div>
+      </div>
+
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          {{#each navItems}}
+          <li><a href="{{url}}">{{label}}</a></li>
+          {{/each}}
+        </ul>
+      </div>
+
+      <div>
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a href="{{site.social.instagram}}">Instagram</a></li>
+          <li><a href="{{site.social.pinterest}}">Pinterest</a></li>
+          <li><a href="{{site.social.etsy}}">Archi on Etsy</a></li>
+          <li><a href="mailto:{{site.contact.email}}">{{site.contact.email}}</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="site-footer__disclosure">
+      <strong>A quick note on links:</strong> {{site.affiliateDisclosure.full}}
+    </div>
+
+    <div class="site-footer__bottom">
+      <span>&copy; <span data-year>2026</span> Whit's World</span>
+      <span>{{site.footer.note}}</span>
+    </div>
+  </div>
+</footer>

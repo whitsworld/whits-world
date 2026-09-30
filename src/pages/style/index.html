@@ -1,0 +1,47 @@
+---
+{
+  "title": "Style | Whit's World",
+  "description": "Outfit inspiration, Amazon fashion finds, and everything I've styled lately — organized so you can actually find it again."
+}
+---
+
+<section class="page-hero">
+  <div class="container">
+    <p class="kicker page-hero__eyebrow">Wear</p>
+    <h1 class="h1 page-hero__title">Style</h1>
+    <p class="page-hero__subtitle">Outfits I've actually worn, styled more than one way. Every feature links straight to what's in it.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid-3">
+      {{#each tagged.style}}
+      <a href="{{url}}" class="product-card">
+        <div class="product-card__image-wrap">
+          <img src="{{cardImage}}" alt="{{cardAlt}}" loading="lazy" width="900" height="1125">
+        </div>
+        <h3 class="product-card__title">{{cardTitle}}</h3>
+        <p class="product-card__note">{{excerpt}}</p>
+      </a>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--deep">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="kicker">Also In Rotation</p>
+        <h2 class="h2">Fashion Finds</h2>
+      </div>
+      <a class="section-header__link" href="/shop/?filter=fashion">See all fashion</a>
+    </div>
+    <div class="grid grid-4">
+      {{#each collections.fashion}}
+      {{> product-card}}
+      {{/each}}
+    </div>
+  </div>
+</section>

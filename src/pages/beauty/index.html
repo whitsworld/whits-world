@@ -1,0 +1,53 @@
+---
+{
+  "title": "Beauty | Whit's World",
+  "description": "Skincare, hair, makeup, and the beauty tools I'm actually using — not just adding to a list."
+}
+---
+
+<section class="page-hero">
+  <div class="container">
+    <p class="kicker page-hero__eyebrow">On My Shelf</p>
+    <h1 class="h1 page-hero__title">Beauty</h1>
+    <p class="page-hero__subtitle">Not a haul, not a wishlist — just what's currently open on my bathroom counter.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="kicker">Right Now</p>
+        <h2 class="h2">Current Favorites</h2>
+      </div>
+    </div>
+    <div class="grid grid-4">
+      {{#each collections.beautyCurrentFavorites}}
+      {{> product-card}}
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--deep">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="kicker">Everything</p>
+        <h2 class="h2">Skincare, Hair &amp; Makeup</h2>
+      </div>
+      <a class="section-header__link" href="/shop/?filter=beauty">See all beauty</a>
+    </div>
+    <div class="grid grid-4">
+      {{#each collections.beauty}}
+      {{> product-card}}
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight text-center">
+  <div class="container-narrow">
+    <p class="hand-note">More collections — like Skincare, Hair, and Beauty Tools — coming soon.</p>
+  </div>
+</section>

@@ -1,0 +1,52 @@
+---
+{
+  "title": "Archi | Whit's World",
+  "description": "Archi is my handmade polymer clay jewelry, laser-cut goods, and resin home goods brand. Here's a peek into what I'm making.",
+  "heroImage": "/assets/placeholders/archi-hero-ww.svg",
+  "heroAlt": "Handmade polymer clay earrings and a resin tray laid out on a linen backdrop"
+}
+---
+
+<section class="page-hero">
+  <div class="container">
+    <p class="kicker page-hero__eyebrow">Made By Me</p>
+    <h1 class="h1 page-hero__title">Archi</h1>
+    <p class="page-hero__subtitle">A small, handmade jewelry and home goods brand I run in my kitchen. This isn't a store — just where I share what I'm making.</p>
+  </div>
+  <div class="container">
+    <div class="page-hero__image">
+      <img src="{{page.heroImage}}" alt="{{page.heroAlt}}" width="1600" height="1000">
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container article-body">
+    <p>Archi grew out of a part-time jewelry business I ran for four years called WhitMIMade. It's grown into polymer clay jewelry, laser-cut pieces, and small-batch resin home goods, all made by hand, in small runs, out of my own kitchen.</p>
+    <p>I don't want Whit's World to turn into an Archi storefront — so this page is just an honest look at what I'm currently making. If something catches your eye, everything lives on Etsy.</p>
+    <p class="mt-md"><a class="btn btn--caramel" href="{{site.social.etsy}}" target="_blank" rel="noopener">Shop Archi on Etsy</a></p>
+  </div>
+</section>
+
+<section class="section section--deep">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="kicker">Currently Making</p>
+        <h2 class="h2">Recent Pieces</h2>
+      </div>
+    </div>
+    <div class="grid grid-4">
+      {{#each collections.archi}}
+      {{> product-card}}
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section text-center">
+  <div class="container-narrow">
+    <p class="lede" style="margin-inline:auto;">Follow along with new pieces, restocks, and behind-the-scenes on Instagram.</p>
+    <p class="mt-md"><a class="btn btn--outline" href="{{site.social.instagram}}" target="_blank" rel="noopener">@_shoparchi on Instagram</a></p>
+  </div>
+</section>

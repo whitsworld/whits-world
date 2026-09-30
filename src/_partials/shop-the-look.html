@@ -1,0 +1,11 @@
+<section class="shop-the-look" aria-label="Shop the look">
+  <div class="shop-the-look__header">
+    <div class="shop-the-look__title">{{#if page.shopTheLookTitle}}{{page.shopTheLookTitle}}{{else}}Shop the Look{{/if}}</div>
+    <p class="caption">{{site.affiliateDisclosure.short}}</p>
+  </div>
+  <div class="shop-the-look__grid">
+    {{#each page.shopTheLookItems}}
+    <div class="shop-the-look__item">{{> product-card}}</div>
+    {{/each}}
+  </div>
+</section>

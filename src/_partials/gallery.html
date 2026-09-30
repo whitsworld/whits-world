@@ -1,0 +1,8 @@
+<div class="gallery gallery--{{#if page.galleryStyle}}{{page.galleryStyle}}{{else}}2col{{/if}}">
+  {{#each page.gallery}}
+  <figure>
+    <img src="{{image}}" alt="{{alt}}" loading="lazy" width="900" height="1125">
+    {{#if caption}}<figcaption>{{caption}}</figcaption>{{/if}}
+  </figure>
+  {{/each}}
+</div>

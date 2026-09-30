@@ -1,0 +1,53 @@
+---
+{
+  "title": "Home | Whit's World",
+  "description": "Room inspiration, DIY projects, furniture, and the home finds I've actually bought and used."
+}
+---
+
+<section class="page-hero">
+  <div class="container">
+    <p class="kicker page-hero__eyebrow">Decorate</p>
+    <h1 class="h1 page-hero__title">Home</h1>
+    <p class="page-hero__subtitle">Home finds, room inspiration, DIY projects, and the slow process of making a rental feel like mine.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="kicker">Projects</p>
+        <h2 class="h2">DIY &amp; Room Projects</h2>
+      </div>
+    </div>
+    <div class="grid grid-3">
+      {{#each tagged.home}}
+      <a href="{{url}}" class="product-card">
+        <div class="product-card__image-wrap">
+          <img src="{{cardImage}}" alt="{{cardAlt}}" loading="lazy" width="900" height="1125">
+        </div>
+        <h3 class="product-card__title">{{cardTitle}}</h3>
+        <p class="product-card__note">{{excerpt}}</p>
+      </a>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--deep">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="kicker">Shop</p>
+        <h2 class="h2">Home Finds</h2>
+      </div>
+      <a class="section-header__link" href="/shop/?filter=home">See all home finds</a>
+    </div>
+    <div class="grid grid-4">
+      {{#each collections.home}}
+      {{> product-card}}
+      {{/each}}
+    </div>
+  </div>
+</section>

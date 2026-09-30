@@ -1,0 +1,150 @@
+---
+{
+  "title": "Whit's World — things I find, wear, make + love",
+  "description": "Whit's World is a personal, curated corner of the internet — things I find, wear, make, decorate with, and genuinely love.",
+  "featuredOutfit": {
+    "title": "5 Ways I'm Wearing Baggy Levi's This Fall",
+    "note": "One pair of jeans, five completely different outfits, and a very strong opinion about how to cuff them.",
+    "image": "/assets/placeholders/levis-homepage-ww.svg",
+    "alt": "Whitney wearing baggy light wash Levi's jeans with an oversized cream sweater",
+    "url": "/style/baggy-levis/"
+  }
+}
+---
+
+<section class="masthead container">
+  <p class="kicker">Welcome to</p>
+  <h1 class="masthead__brand">Whit<span class="accent">'</span>s World</h1>
+  <p class="masthead__tagline">things I find, wear, make + love</p>
+</section>
+
+<!-- ================= CURRENTLY INTO ================= -->
+<section class="section section--tight" aria-labelledby="currently-into-heading">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="kicker">Right now</p>
+        <h2 class="h2" id="currently-into-heading">Currently Into</h2>
+      </div>
+      <a class="section-header__link" href="/shop/?filter=currentFavorites">See all favorites</a>
+    </div>
+
+    <div class="currently-into__scroller">
+      {{#each sections.currentlyInto}}
+      <div class="currently-into__item">{{> product-card}}</div>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHAT I'M WEARING ================= -->
+<section class="section section--deep" aria-labelledby="wearing-heading">
+  <div class="container">
+    <div class="wearing">
+      <div class="wearing__image">
+        <img src="{{page.featuredOutfit.image}}" alt="{{page.featuredOutfit.alt}}" loading="lazy" width="1200" height="1500">
+      </div>
+      <div class="wearing__content">
+        <p class="kicker">What I'm Wearing</p>
+        <h2 class="h2" id="wearing-heading">{{page.featuredOutfit.title}}</h2>
+        <p class="lede mt-sm">{{page.featuredOutfit.note}}</p>
+        <p class="mt-md"><a class="btn btn--caramel" href="{{page.featuredOutfit.url}}">See the Full Outfit Post</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHIT FOUND IT ================= -->
+<section class="section found-it" aria-labelledby="found-it-heading">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <span class="found-it__stamp">Whit Found It</span>
+        <h2 class="h2" id="found-it-heading">Things I Randomly Discovered and Now Cannot Stop Talking About</h2>
+      </div>
+      <a class="section-header__link" href="/shop/?filter=amazon">More Amazon finds</a>
+    </div>
+
+    <div class="grid grid-4">
+      {{#each sections.whitFoundIt}}
+      {{> product-card}}
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<!-- ================= AT HOME ================= -->
+<section class="section" aria-labelledby="at-home-heading">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="kicker">Home</p>
+        <h2 class="h2" id="at-home-heading">At Home</h2>
+      </div>
+      <a class="section-header__link" href="/home/">Visit the Home section</a>
+    </div>
+
+    <div class="at-home__grid">
+      {{#each sections.atHome}}
+      {{> product-card}}
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<!-- ================= BEAUTY SHELF ================= -->
+<section class="section section--deep" aria-labelledby="beauty-shelf-heading">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="kicker">On My Shelf</p>
+        <h2 class="h2" id="beauty-shelf-heading">Beauty Shelf</h2>
+      </div>
+      <a class="section-header__link" href="/beauty/">Visit Beauty</a>
+    </div>
+
+    <div class="beauty-shelf__list">
+      {{#each sections.beautyShelf}}
+      {{> product-card}}
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<!-- ================= MADE BY ME (ARCHI) ================= -->
+<section class="made-by-me" aria-labelledby="made-by-me-heading">
+  <div class="container made-by-me__grid">
+    <div>
+      <p class="kicker">Made By Me</p>
+      <h2 class="h2" id="made-by-me-heading">Archi — My Handmade Jewelry &amp; Home Goods Brand</h2>
+      <p class="lede mt-sm" style="color:rgba(248,242,233,0.8);">Polymer clay jewelry, laser-cut pieces, and small-batch resin home goods, made by hand in very small runs. Whit's World occasionally features what I'm making — this isn't a store, just a peek into the workshop.</p>
+      <p class="mt-md">
+        <a class="btn btn--caramel" href="/archi/">Meet Archi</a>
+        <a class="btn btn--outline" href="{{site.social.etsy}}" target="_blank" rel="noopener" style="border-color:var(--color-cream); color:var(--color-cream); margin-left:0.75rem;">Shop on Etsy</a>
+      </p>
+    </div>
+    <div class="made-by-me__gallery">
+      {{#each sections.madeByMe}}
+      <img src="{{image}}" alt="{{alt}}" loading="lazy" width="600" height="600">
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<!-- ================= THE LATEST ================= -->
+<section class="section" aria-labelledby="latest-heading">
+  <div class="container">
+    <div class="section-header">
+      <div>
+        <p class="kicker">Fresh</p>
+        <h2 class="h2" id="latest-heading">The Latest</h2>
+      </div>
+    </div>
+
+    <div class="latest-feed">
+      {{#each latest}}
+      {{> product-card}}
+      {{/each}}
+    </div>
+  </div>
+</section>

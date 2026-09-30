@@ -1,0 +1,37 @@
+{
+  "brand": {
+    "name": "Whit's World",
+    "tagline": "things I find, wear, make + love",
+    "shortTagline": "my corner of the internet",
+    "url": "https://whitsworld.com",
+    "defaultDescription": "Whit's World is a personal, curated corner of the internet — things I find, wear, make, decorate with, and genuinely love.",
+    "defaultOgImage": "/assets/placeholders/whits-world-og.svg"
+  },
+
+  "nav": [
+    { "label": "Shop", "url": "/shop/" },
+    { "label": "Style", "url": "/style/" },
+    { "label": "Home", "url": "/home/" },
+    { "label": "Beauty", "url": "/beauty/" },
+    { "label": "Archi", "url": "/archi/" }
+  ],
+
+  "social": {
+    "instagram": "https://instagram.com/_shoparchi",
+    "pinterest": "https://pinterest.com/",
+    "etsy": "https://etsy.com/shop/shoparchi"
+  },
+
+  "contact": {
+    "email": "hello@whitsworld.com"
+  },
+
+  "affiliateDisclosure": {
+    "short": "This contains affiliate links — if you shop through them, I may earn a small commission at no extra cost to you.",
+    "full": "Whit's World is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. As an Amazon Associate, I earn from qualifying purchases. Some links on this site are affiliate links for other retailers as well, which means I may earn a small commission if you make a purchase through them, at no additional cost to you. I only recommend things I genuinely use, wear, or love. Thank you for supporting Whit's World — it genuinely helps keep this corner of the internet running."
+  },
+
+  "footer": {
+    "note": "Made with a lot of coffee and questionable amounts of hot glue."
+  }
+}
