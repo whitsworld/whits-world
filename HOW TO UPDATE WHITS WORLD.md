@@ -195,8 +195,12 @@ That's it — the item will now automatically show up everywhere it's supposed t
 An Amazon link is just a normal recommendation (section 6 above) where:
 - `"retailer"` is `"Amazon"`
 - `"categories"` includes `"amazon"`
-- `"url"` is your real Amazon link (ideally your Associates tracking link)
+- `"url"` is just the plain Amazon product link (like `https://www.amazon.com/dp/B0EXAMPLE`) — no need to add your tracking tag yourself, see the note below
 - `"affiliate"` is `true` (see section 8)
+
+**Your Amazon Associates tag is applied automatically.** Your tag is stored once in `src/_data/site.json` under `"affiliate": { "amazonTag": "..." }`. Every time the site builds, any product link pointing to amazon.com automatically gets your tag added to it — you never have to build the tracking link yourself, and you never have to touch old links again if your tag ever changes. Just paste the plain product URL into `products.json` and you're done.
+
+A quick note on Amazon's rules: Amazon's Associates policy doesn't allow showing a fixed price for Amazon products on your site (since prices change constantly and a stale price can get your account flagged), so the `"price"` field is left out on Amazon items — the "Shop" button just sends people to Amazon to see the current price. This doesn't apply to non-Amazon retailers like Levi's or Sephora, where you can still list a price if you want.
 
 ---
 

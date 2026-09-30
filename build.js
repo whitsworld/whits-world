@@ -334,6 +334,20 @@ function loadData() {
   const site = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'site.json'), 'utf8'));
   const products = JSON.parse(fs.readFileSync(path.join(DATA_DIR, 'products.json'), 'utf8'));
 
+  // Automatically apply your Amazon Associates tag to every Amazon product
+  // link. Keep products.json entries as plain Amazon URLs (no tag needed) --
+  // set your tag once in site.json under `affiliate.amazonTag` and it
+  // retroactively applies to every Amazon link on the whole site, past and
+  // future. Change your tag later and every link updates on the next build.
+  const amazonTag = site.affiliate && site.affiliate.amazonTag;
+  if (amazonTag) {
+    products.forEach((p) => {
+      if (p.url && /amazon\.[a-z.]+\//i.test(p.url) && !/[?&]tag=/.test(p.url)) {
+        p.url = p.url + (p.url.includes('?') ? '&' : '?') + 'tag=' + encodeURIComponent(amazonTag);
+      }
+    });
+  }
+
   // Give every product a ready-to-use space-separated category string for
   // data-attributes (used by the Shop page's filter buttons in main.js).
   products.forEach((p) => {

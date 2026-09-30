@@ -17,6 +17,28 @@
   <div class="container">
     <div class="section-header">
       <div>
+        <p class="kicker">Features</p>
+        <h2 class="h2">Wellness &amp; Routines</h2>
+      </div>
+    </div>
+    <div class="grid grid-3">
+      {{#each tagged.beauty}}
+      <a href="{{url}}" class="product-card">
+        <div class="product-card__image-wrap">
+          <img src="{{cardImage}}" alt="{{cardAlt}}" loading="lazy" width="900" height="1125">
+        </div>
+        <h3 class="product-card__title">{{cardTitle}}</h3>
+        <p class="product-card__note">{{excerpt}}</p>
+      </a>
+      {{/each}}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div>
         <p class="kicker">Right Now</p>
         <h2 class="h2">Current Favorites</h2>
       </div>

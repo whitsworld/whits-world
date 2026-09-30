@@ -9,8 +9,15 @@
     "price": "$14",
     "url": "https://www.amazon.com/",
     "affiliate": true,
-    "categories": ["amazon", "beauty", "currentFavorites"],
-    "homeSections": ["whitFoundIt", "beautyShelf"],
+    "categories": [
+      "amazon",
+      "beauty",
+      "currentFavorites"
+    ],
+    "homeSections": [
+      "whitFoundIt",
+      "beautyShelf"
+    ],
     "featured": true,
     "dateAdded": "2026-09-22"
   },
@@ -24,8 +31,14 @@
     "price": "$48",
     "url": "https://www.amazon.com/",
     "affiliate": true,
-    "categories": ["amazon", "fashion", "currentFavorites"],
-    "homeSections": ["whitFoundIt"],
+    "categories": [
+      "amazon",
+      "fashion",
+      "currentFavorites"
+    ],
+    "homeSections": [
+      "whitFoundIt"
+    ],
     "featured": true,
     "dateAdded": "2026-09-18"
   },
@@ -39,8 +52,13 @@
     "price": "$98",
     "url": "https://www.levi.com/",
     "affiliate": true,
-    "categories": ["fashion", "currentFavorites"],
-    "homeSections": ["currentlyInto"],
+    "categories": [
+      "fashion",
+      "currentFavorites"
+    ],
+    "homeSections": [
+      "currentlyInto"
+    ],
     "featured": true,
     "dateAdded": "2026-09-10"
   },
@@ -54,7 +72,10 @@
     "price": "$22",
     "url": "https://www.amazon.com/",
     "affiliate": true,
-    "categories": ["amazon", "fashion"],
+    "categories": [
+      "amazon",
+      "fashion"
+    ],
     "homeSections": [],
     "featured": false,
     "dateAdded": "2026-08-30"
@@ -69,7 +90,9 @@
     "price": "$68",
     "url": "https://www.nordstrom.com/",
     "affiliate": true,
-    "categories": ["fashion"],
+    "categories": [
+      "fashion"
+    ],
     "homeSections": [],
     "featured": false,
     "dateAdded": "2026-09-05"
@@ -84,8 +107,13 @@
     "price": "$36",
     "url": "https://www.etsy.com/",
     "affiliate": true,
-    "categories": ["home", "gifts"],
-    "homeSections": ["atHome"],
+    "categories": [
+      "home",
+      "gifts"
+    ],
+    "homeSections": [
+      "atHome"
+    ],
     "featured": true,
     "dateAdded": "2026-09-12"
   },
@@ -99,8 +127,13 @@
     "price": "$16",
     "url": "https://www.amazon.com/",
     "affiliate": true,
-    "categories": ["amazon", "home"],
-    "homeSections": ["atHome"],
+    "categories": [
+      "amazon",
+      "home"
+    ],
+    "homeSections": [
+      "atHome"
+    ],
     "featured": false,
     "dateAdded": "2026-08-25"
   },
@@ -114,8 +147,15 @@
     "price": "$39",
     "url": "https://www.amazon.com/",
     "affiliate": true,
-    "categories": ["amazon", "home", "currentFavorites"],
-    "homeSections": ["atHome", "currentlyInto"],
+    "categories": [
+      "amazon",
+      "home",
+      "currentFavorites"
+    ],
+    "homeSections": [
+      "atHome",
+      "currentlyInto"
+    ],
     "featured": true,
     "dateAdded": "2026-09-20"
   },
@@ -129,7 +169,9 @@
     "price": "$25",
     "url": "https://www.target.com/",
     "affiliate": true,
-    "categories": ["home"],
+    "categories": [
+      "home"
+    ],
     "homeSections": [],
     "featured": false,
     "dateAdded": "2026-09-02"
@@ -144,8 +186,14 @@
     "price": "$54",
     "url": "https://www.sephora.com/",
     "affiliate": true,
-    "categories": ["beauty", "currentFavorites"],
-    "homeSections": ["beautyShelf", "currentlyInto"],
+    "categories": [
+      "beauty",
+      "currentFavorites"
+    ],
+    "homeSections": [
+      "beautyShelf",
+      "currentlyInto"
+    ],
     "featured": true,
     "dateAdded": "2026-09-15"
   },
@@ -159,8 +207,14 @@
     "price": "$34",
     "url": "https://www.amazon.com/",
     "affiliate": true,
-    "categories": ["amazon", "beauty", "currentFavorites"],
-    "homeSections": ["beautyShelf"],
+    "categories": [
+      "amazon",
+      "beauty",
+      "currentFavorites"
+    ],
+    "homeSections": [
+      "beautyShelf"
+    ],
     "featured": false,
     "dateAdded": "2026-09-08"
   },
@@ -174,8 +228,12 @@
     "price": "$28",
     "url": "https://www.ulta.com/",
     "affiliate": true,
-    "categories": ["beauty"],
-    "homeSections": ["beautyShelf"],
+    "categories": [
+      "beauty"
+    ],
+    "homeSections": [
+      "beautyShelf"
+    ],
     "featured": false,
     "dateAdded": "2026-08-28"
   },
@@ -189,7 +247,11 @@
     "price": "$19",
     "url": "https://www.amazon.com/",
     "affiliate": true,
-    "categories": ["amazon", "beauty", "gifts"],
+    "categories": [
+      "amazon",
+      "beauty",
+      "gifts"
+    ],
     "homeSections": [],
     "featured": false,
     "dateAdded": "2026-08-15"
@@ -204,8 +266,14 @@
     "price": "$28",
     "url": "https://www.etsy.com/shop/shoparchi",
     "affiliate": false,
-    "categories": ["archi", "fashion", "gifts"],
-    "homeSections": ["madeByMe"],
+    "categories": [
+      "archi",
+      "fashion",
+      "gifts"
+    ],
+    "homeSections": [
+      "madeByMe"
+    ],
     "featured": true,
     "dateAdded": "2026-09-01"
   },
@@ -219,8 +287,14 @@
     "price": "$34",
     "url": "https://www.etsy.com/shop/shoparchi",
     "affiliate": false,
-    "categories": ["archi", "home", "gifts"],
-    "homeSections": ["madeByMe"],
+    "categories": [
+      "archi",
+      "home",
+      "gifts"
+    ],
+    "homeSections": [
+      "madeByMe"
+    ],
     "featured": true,
     "dateAdded": "2026-08-20"
   },
@@ -234,8 +308,14 @@
     "price": "$24",
     "url": "https://www.etsy.com/shop/shoparchi",
     "affiliate": false,
-    "categories": ["archi", "fashion", "gifts"],
-    "homeSections": ["madeByMe"],
+    "categories": [
+      "archi",
+      "fashion",
+      "gifts"
+    ],
+    "homeSections": [
+      "madeByMe"
+    ],
     "featured": false,
     "dateAdded": "2026-08-10"
   },
@@ -249,7 +329,11 @@
     "price": "$18",
     "url": "https://www.amazon.com/",
     "affiliate": true,
-    "categories": ["amazon", "gifts", "home"],
+    "categories": [
+      "amazon",
+      "gifts",
+      "home"
+    ],
     "homeSections": [],
     "featured": false,
     "dateAdded": "2026-09-03"
@@ -264,7 +348,11 @@
     "price": "$21",
     "url": "https://www.amazon.com/",
     "affiliate": true,
-    "categories": ["amazon", "gifts", "home"],
+    "categories": [
+      "amazon",
+      "gifts",
+      "home"
+    ],
     "homeSections": [],
     "featured": false,
     "dateAdded": "2026-07-30"
@@ -279,8 +367,14 @@
     "price": "$79",
     "url": "https://www.amazon.com/",
     "affiliate": true,
-    "categories": ["amazon", "fashion", "currentFavorites"],
-    "homeSections": ["whitFoundIt"],
+    "categories": [
+      "amazon",
+      "fashion",
+      "currentFavorites"
+    ],
+    "homeSections": [
+      "whitFoundIt"
+    ],
     "featured": false,
     "dateAdded": "2026-09-25"
   },
@@ -294,8 +388,14 @@
     "price": "$89",
     "url": "https://www.amazon.com/",
     "affiliate": true,
-    "categories": ["amazon", "fashion", "currentFavorites"],
-    "homeSections": ["currentlyInto"],
+    "categories": [
+      "amazon",
+      "fashion",
+      "currentFavorites"
+    ],
+    "homeSections": [
+      "currentlyInto"
+    ],
     "featured": true,
     "dateAdded": "2026-09-27"
   },
@@ -309,8 +409,13 @@
     "price": "$45",
     "url": "https://www.target.com/",
     "affiliate": true,
-    "categories": ["home", "currentFavorites"],
-    "homeSections": ["atHome"],
+    "categories": [
+      "home",
+      "currentFavorites"
+    ],
+    "homeSections": [
+      "atHome"
+    ],
     "featured": false,
     "dateAdded": "2026-09-14"
   },
@@ -324,7 +429,10 @@
     "price": "$19",
     "url": "https://www.etsy.com/",
     "affiliate": true,
-    "categories": ["home", "gifts"],
+    "categories": [
+      "home",
+      "gifts"
+    ],
     "homeSections": [],
     "featured": false,
     "dateAdded": "2026-08-05"
@@ -339,9 +447,188 @@
     "price": "$42",
     "url": "https://www.amazon.com/",
     "affiliate": true,
-    "categories": ["amazon", "fashion", "currentFavorites"],
-    "homeSections": ["currentlyInto", "whitFoundIt"],
+    "categories": [
+      "amazon",
+      "fashion",
+      "currentFavorites"
+    ],
+    "homeSections": [
+      "currentlyInto",
+      "whitFoundIt"
+    ],
     "featured": true,
     "dateAdded": "2026-09-29"
+  },
+  {
+    "id": "supplement-collagen",
+    "title": "The Collagen I Take For My Skin, Hair & Nails",
+    "note": "Hair, nails & joint formula with hyaluronic acid and vitamin C. The one that's been in my daily lineup the longest.",
+    "image": "/assets/placeholders/supplement-collagen-ww.svg",
+    "alt": "Bottle of ForestLeaf Advanced Collagen capsules",
+    "retailer": "Amazon",
+    "url": "https://www.amazon.com/dp/B07FKT26Q9",
+    "affiliate": true,
+    "categories": [
+      "amazon",
+      "beauty"
+    ],
+    "homeSections": [
+      "beautyShelf"
+    ],
+    "featured": true,
+    "dateAdded": "2026-09-30"
+  },
+  {
+    "id": "supplement-nac",
+    "title": "The NAC I Take For Antioxidant & Liver Support",
+    "note": "600mg, vegan capsules. Part of my daily antioxidant and respiratory support routine.",
+    "image": "/assets/placeholders/supplement-nac-ww.svg",
+    "alt": "Bottle of Nutricost NAC (N-Acetyl L-Cysteine) 600mg capsules",
+    "retailer": "Amazon",
+    "url": "https://www.amazon.com/dp/B01CUQFKW4",
+    "affiliate": true,
+    "categories": [
+      "amazon",
+      "beauty"
+    ],
+    "homeSections": [],
+    "featured": false,
+    "dateAdded": "2026-09-30"
+  },
+  {
+    "id": "supplement-omega3",
+    "title": "The Omega-3 I Take Every Morning",
+    "note": "690mg fish oil in lemon flavor, so it doesn't taste like fish oil. Heart, brain, and inflammation support.",
+    "image": "/assets/placeholders/supplement-omega3-ww.svg",
+    "alt": "Bottle of Nordic Naturals Omega-3 lemon flavored soft gels",
+    "retailer": "Amazon",
+    "url": "https://www.amazon.com/dp/B075ZTY6GR",
+    "affiliate": true,
+    "categories": [
+      "amazon",
+      "beauty"
+    ],
+    "homeSections": [],
+    "featured": false,
+    "dateAdded": "2026-09-30"
+  },
+  {
+    "id": "supplement-magnesium",
+    "title": "The Magnesium Glycinate In My Nighttime Routine",
+    "note": "400mg, for relaxation, sleep, and muscle & nerve support. This one made a noticeable difference for me.",
+    "image": "/assets/placeholders/supplement-magnesium-ww.svg",
+    "alt": "Bottle of Magnesium Glycinate 400mg veggie capsules",
+    "retailer": "Amazon",
+    "url": "https://www.amazon.com/dp/B0B6CTYD6S",
+    "affiliate": true,
+    "categories": [
+      "amazon",
+      "beauty"
+    ],
+    "homeSections": [],
+    "featured": false,
+    "dateAdded": "2026-09-30"
+  },
+  {
+    "id": "supplement-pterostilbene",
+    "title": "Pterostilbene, My Antioxidant & Healthy Aging Pick",
+    "note": "100mg capsules for cell health and antioxidant support.",
+    "image": "/assets/placeholders/supplement-pterostilbene-ww.svg",
+    "alt": "Bottle of Pterostilbene 100mg capsules",
+    "retailer": "Amazon",
+    "url": "https://www.amazon.com/dp/B076M84NHY",
+    "affiliate": true,
+    "categories": [
+      "amazon",
+      "beauty"
+    ],
+    "homeSections": [],
+    "featured": false,
+    "dateAdded": "2026-09-30"
+  },
+  {
+    "id": "supplement-ubiquinol",
+    "title": "The Ubiquinol CoQ10 I Take For Heart & Cellular Energy",
+    "note": "100mg, superior absorption formula. Heart support and antioxidant support in one.",
+    "image": "/assets/placeholders/supplement-ubiquinol-ww.svg",
+    "alt": "Bottle of Qunol Mega Ubiquinol CoQ10 100mg soft gels",
+    "retailer": "Amazon",
+    "url": "https://www.amazon.com/dp/B072LD2NZ7",
+    "affiliate": true,
+    "categories": [
+      "amazon",
+      "beauty"
+    ],
+    "homeSections": [],
+    "featured": false,
+    "dateAdded": "2026-09-30"
+  },
+  {
+    "id": "supplement-k2d3",
+    "title": "Vitamin K2 + D3, My 2-in-1 Bone & Immune Support",
+    "note": "Bone strength, calcium support, and immune support in a single capsule.",
+    "image": "/assets/placeholders/supplement-k2d3-ww.svg",
+    "alt": "Bottle of Bronson Vitamin K2 plus D3 tablets",
+    "retailer": "Amazon",
+    "url": "https://www.amazon.com/dp/B0GY62KNS8",
+    "affiliate": true,
+    "categories": [
+      "amazon",
+      "beauty"
+    ],
+    "homeSections": [],
+    "featured": false,
+    "dateAdded": "2026-09-30"
+  },
+  {
+    "id": "supplement-ashwagandha",
+    "title": "The KSM-66 Ashwagandha I Take For Stress Support",
+    "note": "600mg root extract. Stress support, mood balance, and relaxation.",
+    "image": "/assets/placeholders/supplement-ashwagandha-ww.svg",
+    "alt": "Bottle of Nutricost KSM-66 Ashwagandha 600mg capsules",
+    "retailer": "Amazon",
+    "url": "https://www.amazon.com/dp/B079K32QB6",
+    "affiliate": true,
+    "categories": [
+      "amazon",
+      "beauty"
+    ],
+    "homeSections": [],
+    "featured": false,
+    "dateAdded": "2026-09-30"
+  },
+  {
+    "id": "supplement-ltheanine",
+    "title": "L-Theanine For Calm Focus",
+    "note": "200mg, double strength. My go-to for mental clarity without the jitters.",
+    "image": "/assets/placeholders/supplement-ltheanine-ww.svg",
+    "alt": "Bottle of Nutricost L-Theanine 200mg capsules",
+    "retailer": "Amazon",
+    "url": "https://www.amazon.com/dp/B01B3RWQNM",
+    "affiliate": true,
+    "categories": [
+      "amazon",
+      "beauty"
+    ],
+    "homeSections": [],
+    "featured": false,
+    "dateAdded": "2026-09-30"
+  },
+  {
+    "id": "supplement-prenatal",
+    "title": "The Prenatal Vitamin I Take Daily",
+    "note": "Folic acid + DHA for daily nutrient support.",
+    "image": "/assets/placeholders/supplement-prenatal-ww.svg",
+    "alt": "Bottle of Olly The Essential Prenatal gummy multivitamin",
+    "retailer": "Amazon",
+    "url": "https://www.amazon.com/dp/B0CSFXTHDS",
+    "affiliate": true,
+    "categories": [
+      "amazon",
+      "beauty"
+    ],
+    "homeSections": [],
+    "featured": false,
+    "dateAdded": "2026-09-30"
   }
 ]
